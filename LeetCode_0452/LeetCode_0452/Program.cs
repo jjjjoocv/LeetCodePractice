@@ -7,7 +7,7 @@ namespace LeetCode_0452
     {
         public int FindMinArrowShots(int[][] points)
         {
-            if (points.Length < 2) return points.Length;//不用射箭 
+            if (points.Length < 2) return points.Length;//不用射箭 or 只射一支箭
             Array.Sort(points, (x1, x2) => x1[1].CompareTo(x2[1]));//陣列依xEnd值，由小排到大
             int balloonXEnd = points[0][1];//初始xEnd值最小氣球
             int arrowCount = 1;//初始必射一支箭
