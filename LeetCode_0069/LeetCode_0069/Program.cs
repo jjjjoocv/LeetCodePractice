@@ -1,4 +1,5 @@
-﻿using System;
+﻿//20230129 by hungyufeather@gmail.com
+using System;
 
 namespace LeetCode_0069
 {
